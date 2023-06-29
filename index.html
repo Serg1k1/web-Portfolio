@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e79956d3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -131,7 +133,7 @@
                     <div class="about__info">
                         <div class="about__info header-main">
                             <div class="header-main__label">🧐 Sobre mim</div> 
-                            <h1 class="header-main__title header-main__title_info">Washington Henrique Fernandes de Sousa</h1>  
+                            <h2 class="header-main__title header-main__title_info">Washington Henrique Fernandes de Sousa</h2>  
                             <div class="header-main__info">
                                 <p>👋 Me chamo Washington Henrique Fernandes de Sousa, mas pode me chamar apenas de Henrique. Prazer!</p>
                                 <p>
@@ -151,7 +153,7 @@
                         <div class="tabs-works__nav">
                             <div class="tabs-works__header header-main">
                                 <div class="header-main__label">🔗 Portfólio</div> 
-                                <h1 class="header-main__title header-main__title_works">Trabalhos e projetos</h1>   
+                                <h2 class="header-main__title header-main__title_works">Trabalhos e projetos</h2>   
                             </div>  
                             <div class="tabs-works__actions actions-works">
                                 <button class="tabs__button active">UI Design</button>
@@ -387,7 +389,7 @@
             <section class="page__videos videos">
                 <div class="videos__container">
                     <div class="videos__header header-main">
-                        <h1 class="header-main__title header-main__title_works">Trabalhos e projetos</h1> 
+                        <h2 class="header-main__title header-main__title_works">Trabalhos e projetos</h2> 
                         <div class="header-main__text">Sempre é bom saber um pouquinho de edição</div>  
                     </div> 
                     <div class="videos__items">
@@ -473,7 +475,7 @@
                 <div class="technologies__container">
                     <div class="technologies__header header-main">
                         <div class="header-main__label">🔗 Portfólio</div> 
-                        <h1 class="header-main__title header-main__title_works">Trabalhos e projetos</h1>   
+                        <h2 class="header-main__title header-main__title_works">Trabalhos e projetos</h2>   
                     </div> 
                     <div class="technologies__content content-technologies">
                         <h5 class="content-technologies__title">Techs que uso no dia a dia</h5>
@@ -551,7 +553,7 @@
                 <div class="experiance__container">
                     <div class="technologies__header header-main">
                         <div class="header-main__label">💼 Carreira</div> 
-                        <h1 class="header-main__title header-main__title_works">Trajetória até aqui</h1>   
+                        <h2 class="header-main__title header-main__title_works">Trajetória até aqui</h2>   
                     </div> 
                     <div class="experiance__columns columns-experiance">
                         <div class="columns-experiance__column">
@@ -675,8 +677,165 @@
                     </div>  
                 </div>
             </section>
+            <section class="page__responses responses">
+                <div class="responses__container">
+                    <div class="responses__header header-main">
+                        <div class="header-main__label">💬 Recomendações</div> 
+                        <h2 class="header-main__title header-main__title_works">Em depoimento</h2>   
+                    </div> 
+                     
+                    <!-- Slider main container -->
+                    <div class="responses__slider-items">
+                        <div class="slider-responses__arrows">
+                            <div class="slider-responses__arrow swiper-button-prev">
+                                <img src="img/main/slider/arrow.svg" alt="imf">
+                            </div>
+                            <div class="slider-responses__arrow swiper-button-next">
+                                <img src="img/main/slider/arrow.svg" alt="imf">
+                            </div>
+                        </div>
+                        <div class="responses__slider slider-responses swiper">                 
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <article class="responses__item item-responses">
+                                    <div class="item-responses__quote">
+                                        <img src="img/main/responses/Quotes.svg" alt="quote">
+                                    </div>
+                                    <div class="item-responses__text">
+                                        O Washington está sempre estudando e aprendendo, 
+                                        buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. 
+                                        Está sempre em busca de seus objetivos, com foco e organização. 
+                                        Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!
+                                    </div>
+                                    <div class="item-responses__user user-responses">
+                                        <div class="user-responses__avatar">
+                                            <img src="img/main/responses/avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="user-responses__body">
+                                            <div class="user-responses__title">Romário Lima</div>
+                                            <div class="user-responses__company">Engenheiro da Computação</div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="responses__item item-responses">
+                                    <div class="item-responses__quote">
+                                        <img src="img/main/responses/Quotes.svg" alt="quote">
+                                    </div>
+                                    <div class="item-responses__text">
+                                        O Washington está sempre estudando e aprendendo, 
+                                        buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. 
+                                        Está sempre em busca de seus objetivos, com foco e organização. 
+                                        Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!
+                                    </div>
+                                    <div class="item-responses__user user-responses">
+                                        <div class="user-responses__avatar">
+                                            <img src="img/main/responses/avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="user-responses__body">
+                                            <div class="user-responses__title">Romário Lima</div>
+                                            <div class="user-responses__company">Engenheiro da Computação</div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="responses__item item-responses">
+                                    <div class="item-responses__quote">
+                                        <img src="img/main/responses/Quotes.svg" alt="quote">
+                                    </div>
+                                    <div class="item-responses__text">
+                                        O Washington está sempre estudando e aprendendo, 
+                                        buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. 
+                                        Está sempre em busca de seus objetivos, com foco e organização. 
+                                        Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!
+                                    </div>
+                                    <div class="item-responses__user user-responses">
+                                        <div class="user-responses__avatar">
+                                            <img src="img/main/responses/avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="user-responses__body">
+                                            <div class="user-responses__title">Romário Lima</div>
+                                            <div class="user-responses__company">Engenheiro da Computação</div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                <article class="responses__item item-responses">
+                                    <div class="item-responses__quote">
+                                        <img src="img/main/responses/Quotes.svg" alt="quote">
+                                    </div>
+                                    <div class="item-responses__text">
+                                        O Washington está sempre estudando e aprendendo, 
+                                        buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. 
+                                        Está sempre em busca de seus objetivos, com foco e organização. 
+                                        Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!
+                                    </div>
+                                    <div class="item-responses__user user-responses">
+                                        <div class="user-responses__avatar">
+                                            <img src="img/main/responses/avatar.png" alt="avatar">
+                                        </div>
+                                        <div class="user-responses__body">
+                                            <div class="user-responses__title">Romário Lima</div>
+                                            <div class="user-responses__company">Engenheiro da Computação</div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            </div>                    
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <section class="page__contacts contacts">
+                <div class="contacts__container">
+                    <div class="technologies__header header-main">
+                        <div class="header-main__label">📬 Contatos</div> 
+                        <h2 class="header-main__title header-main__title_works">Vamos conversar!</h2>   
+                    </div>  
+                    <div class="contacts__content content-contacts">
+                        <div class="content-contacts__main">
+                            <div class="content-contacts__viber">
+                                <div><a href="#" class="info-main__button button">Vamos conversar</a></div>
+                            </div> 
+                            <div class="content-contacts__telegram telegram-contacts">
+                                <div class="telegram-contacts__icon">
+                                    <img src="img/main/02.svg" alt="telegram">
+                                </div>
+                                <div class="telegram-contacts__type">E-mail:</div>
+                                <div class="telegram-contacts__email">henriquesousa.dev@gmail.com</div>
+                                <button class="telegram-contacts__copy">
+                                    <img src="img/main/CopySimple.svg" alt="copy">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-contacts__top">
+                            <a href="#">Voltar ao topo</a>
+                        </div>        
+                    </div>        
+                </div>
+            </section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__copyright">Copyright © Henrique Sousa · 2022</div>
+                <div class="header-main__icons">
+                    <a href="#" class="header-main__icon">
+                        <img src="img/main/icons/linkedin.svg" alt="icon">
+                    </a>
+                    <a href="#" class="header-main__icon">
+                        <img src="img/main/icons/github.svg" alt="icon">
+                    </a>
+                    <a href="#" class="header-main__icon">
+                        <img src="img/main/icons/behance.svg" alt="icon">
+                    </a>
+                </div>
+            </div>    
+        </footer>
     </div> 
     
     <script src="js/main.js" ></script>

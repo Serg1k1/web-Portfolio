@@ -36,6 +36,8 @@ body {
 }
 .page__technologies{}
 .page__experiance {}
+.page__responses {}
+.page__contacts {}
 /* ----------------------------- */
 .button {
     font-weight: 600;
@@ -997,4 +999,226 @@ body {
     .experiance {
         padding: 35px 0px;
     }
+}
+
+/* ----------------------------- */
+
+
+.responses {
+    padding: 70px 0;
+}
+.responses__container {
+}
+.responses__header {
+}
+.responses__header:not(:last-child) {
+    margin-bottom: 64px;
+}
+.responses__items {
+    
+}
+.responses__item {
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.50);
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.responses__item:hover {
+    background: rgba(123, 74, 226, 0.10);
+}
+.item-responses {
+}
+.item-responses__quote {
+    margin-bottom: 12px;
+}
+.item-responses__text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.item-responses__text:not(:last-child) {
+    margin-bottom: 14px;
+}
+.item-responses__user {
+}
+.user-responses {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.user-responses__avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-responses__body {
+}
+.user-responses__title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.user-responses__title:not(:last-child) {
+    margin-bottom: 5px;
+}
+.user-responses__company {
+    color: rgba(123, 74, 226, 0.50);
+    font-size: 16px;
+    font-weight: 700;
+}
+.responses__slider-items {
+    position: relative;    
+}
+.swiper{
+}
+
+.slider-responses__arrows {
+    position: absolute;
+    top: -52px;
+    right: 40px;
+    display: flex;
+    align-items: center;  
+    gap: 25px; 
+}
+
+.slider-responses__arrow.swiper-button-prev,
+.slider-responses__arrow.swiper-button-next {
+    position: static;
+    
+    object-fit: cover;
+}
+.slider-responses__arrow img {
+    height: 16px;
+    width: 16px;
+}
+.slider-responses__arrow {
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.50); 
+    padding: 20px;
+}
+.slider-responses__arrow::after {
+    display: none;
+}
+.slider-responses__arrow.swiper-button-prev {
+    transform: rotateZ(-180deg);    
+}
+
+@media (max-width: 740px) {
+    .responses {
+        padding: 35px 0px;
+    }
+    .responses__header:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 440px) {
+    .slider-responses__arrows {
+        display: none;
+    }    
+}
+
+/* ----------------------------- */
+
+
+.contacts {
+    padding: 70px 0px 150px 0px;
+}
+.contacts__container {
+}
+
+.contacts__content {
+}
+.content-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.content-contacts__main {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.content-contacts__viber {
+}
+
+.content-contacts__telegram {
+}
+.telegram-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telegram-contacts__icon {
+    margin-bottom: 4px;
+}
+.telegram-contacts__type {
+    color: #7B4AE2;
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+.telegram-contacts__email {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+}
+.telegram-contacts__email:not(:last-child) {
+    margin-bottom: 16px;
+}
+.telegram-contacts__copy {
+}
+
+.content-contacts__top a{
+    color: rgba(123, 74, 226, 0.50);
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.content-contacts__top a::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translateY(-50%);
+    background: url('../img/main/ArrowUp.svg') no-repeat center;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 544px) {
+    .content-contacts__main {
+        flex-direction: column;
+    }
+    .contacts {
+        padding: 35px 0px 70px 0px;
+    }
+}
+
+.footer {
+    padding: 23px 0px;
+    background: rgba(123, 74, 226, 0.10);
+} 
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-main__icons {
+}
+.header-main__icon {
+}
+
+@media (max-width: 453px) {
+    .footer__container {
+        flex-direction: column-reverse;
+    }    
 }

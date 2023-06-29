@@ -38,3 +38,35 @@ document.addEventListener("click", function(e) {
         tabItems[newActiveIndex].classList.add('active');
     }
 })
+
+// swiper
+
+const swiper = new Swiper('.responses__slider', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+
+    breakpoints: {
+        // when window width is >= 320px
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        },
+        // when window width is >= 480px
+        771: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        // when window width is >= 640px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 30,        
+        }
+      },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.slider-responses__arrow.swiper-button-next',
+      prevEl: '.slider-responses__arrow.swiper-button-prev',
+    },
+  });
